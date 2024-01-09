@@ -3,34 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessible Portfolio</title>
+  <title>My Favorite Movie</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1 role="heading">My Portfolio</h1>
-    <nav role="navigation">
-      <ul role="list">
-        <li role="listitem"><a href="#">Home</a></li>
-        <li role="listitem"><a href="#">About</a></li>
-        <li role="listitem"><a href="#">Projects</a></li>
-        <li role="listitem"><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>My Favorite Movie</h1>
   </header>
 
-  <main>
-    <img src="portfolio-image.jpg" alt="Portfolio Image" role="img">
-    <p>A brief description of my portfolio.</p>
-    <ul role="list">
-      <li role="listitem">Project 1</li>
-      <li role="listitem">Project 2</li>
-      <li role="listitem">Project 3</li>
+  <nav>
+    <ul>
+      <li><a href="#actor" id="nav-actor">Actors</a></li>
+      <li><a href="#quote" id="nav-quote">Quotes</a></li>
     </ul>
+  </nav>
+
+  <main>
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>A brief summary of the plot goes here.</p>
+    </section>
+
+    <section id="actor">
+      <h2>Actors</h2>
+      <p>Details about the actors go here.</p>
+    </section>
+
+    <section id="quote">
+      <h2>Quotes</h2>
+      <p>Your favorite quote from the movie goes here.</p>
+    </section>
   </main>
 
+  <aside>
+    <h2>Movie Information</h2>
+    <p>IMDb Rating: 8.5</p>
+    <p>Release Date: January 1, 2022</p>
+  </aside>
+
   <footer>
-    <p>&copy; 2021 My Portfolio. All rights reserved.</p>
+    <p>Produced by: John Doe</p>
   </footer>
 </body>
 </html>
